@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+html{
+    z-index: -1;
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+        
+}
+.calF{
+    width: 400px;
+    height: 600px;
+    border: 3px solid black;
+    margin: 3rem auto 1rem auto; 
+    background: whitesmoke;
+    border-radius: 1.2rem;
+    box-shadow: 0 0 3rem grey;
+    
+}
+.initialN {
+    padding: 0.5rem;
+    width: 100.5%;
+}
+
+.screen {
+    width: 395px;
+    height: 180px;
+    padding: 1rem;   
+    background: white;
+    border: 1px solid black;
+    box-shadow: 2px 3px 2rem black;
+    position: absolute;
+    border-top-left-radius: 1.2rem;
+}
+span {
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 3rem;
+}
+.ww {
+    display: flex;
+    padding-top: 35px;
+    justify-content: space-around;
+}
+.ww button {
+    font-size: 2.5rem;
+    width: 40px;
+    height: 40px;
+    background: whitesmoke;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    border: none;
+}
+.remove button {
+    width: 12vw;
+}
+.temp {
+    margin-top: 170px;
+}
+.Values {
+    position: relative;
+    margin-top: 180.7px;
+    display: flex;
+}
+.numsV { 
+    width: 75%;
+    height: 413px;
+    border-right: 3px solid grey;
+}
+.delB {
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 40px;
+    padding-top: 0.3rem;
+}
+.delB span {
+    font-size: 1.5rem;
+}
+.signs {
+    width: 20%;
+    height: 413px;
+    padding: 2px 3px 0 20px;
+}
+.signs button{
+    border: none;
+    font-size: 2.2rem;
+    width: 40px;
+    height: 40px;
+    background: whitesmoke;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.advancedI{
+    margin: auto;
+    background-color: blue;
+    width: 5.3%;
+    height: 414.3px;
+    border-bottom-right-radius: 2rem;
+    
+}
+.advancedI button {
+    color: white;
+    font-size: 1.5rem;
+    background-color: blue;
+    border: none;
+    width: 100%;
+    border-bottom-right-radius: 2rem;
+    height: 100%;
+    cursor: pointer;
+}
+.advanced {
+    position: relative;
+    margin-left: 100%;
+    background-color: blue;
+    width: 0;
+    height: 415px;
+    justify-content: space-evenly;
+    margin-top: -105%;
+    transform: translate(-100%);
+}
+.advanced button{
+    border: none;
+    font-size: 2rem;
+    width: 40px;
+    color: white;
+    height: 40px;
+    background: blue;
+    cursor: pointer;
+    margin-top: 35px;
+}
+.firstA, .secondA, .thirdA {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    display: none;
+}
+
+#ad2 {
+    background-color: blue;
+    width: 0;
+    height: 200px;
+    position: absolute;
+    margin: 20% 0 0 0;
+    display: none;
+}
+#ad2 button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+}
+.answer {
+    font-size: 1.5rem;
+}
+.history {
+    width: 300px;
+    height: 0px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    margin-top: -416px;
+    border: none;
+}
+.his {
+    width: 60px;
+    height: 30px;
+    font-size: 1rem;
+    position: absolute;
+    top: 147px;
+    left: 290px;
+    background-color: white;
+    color: blue;
+    border: none;
+}
+.mad {
+    margin: 2rem 0 2rem 1rem;
+}
+.mad h4 {
+    color: grey;
+    font-size: 1.5rem;
+}
+.mad h3{
+    color: green;
+    font-size: 2rem;
+}
+.history button{
+    position: sticky;
+    top: 0;
+    margin-left: 35%;
+    background-color: white;
+    color: blue;
+    font-size: 1rem;
+    border: none;
+    font-weight: 800;
+}
